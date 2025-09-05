@@ -189,7 +189,7 @@ export const MemoryGame = () => {
             <Card
               key={card.cardId}
               className={`
-                aspect-[3/4] cursor-pointer transition-all duration-300 hover:shadow-card
+                aspect-[5/8] cursor-pointer transition-all duration-300 hover:shadow-card
                 ${card.isFlipped || card.isMatched 
                   ? 'bg-gradient-card' 
                   : 'bg-game-card hover:bg-game-card-hover'
@@ -200,18 +200,23 @@ export const MemoryGame = () => {
             >
               <div className="relative w-full h-full rounded-lg overflow-hidden">
                 {card.isFlipped || card.isMatched ? (
-                  <div className="flex flex-col items-center justify-center h-full p-3">
+                  <div className="relative w-full h-full">
                     <img
                       src={card.image}
                       alt={card.name}
-                      className="w-full h-2/3 object-cover rounded-md mb-2"
+                      className="w-full h-full object-cover"
                     />
-                    <div className="text-center">
-                      <div className="text-xs font-semibold text-foreground truncate">
-                        {card.name}
-                      </div>
-                      <div className="text-xs text-primary font-bold">
-                        #{card.rank}
+                    <div className="absolute bottom-0 left-0 right-0 p-3">
+                      <div className="text-center">
+                        <div className="text-xs font-bold text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)] 
+                                        [text-shadow:_0_1px_0_rgb(255_255_255_/_40%),_0_2px_4px_rgb(0_0_0_/_80%)] mb-1">
+                          {card.name}
+                        </div>
+                        <div className="text-xs font-bold text-primary drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]
+                                        [text-shadow:_0_1px_0_rgb(255_255_255_/_60%),_0_2px_4px_rgb(0_0_0_/_80%)]
+                                        bg-white/20 backdrop-blur-sm rounded-full px-2 py-1 inline-block">
+                          #{card.rank}
+                        </div>
                       </div>
                     </div>
                   </div>
