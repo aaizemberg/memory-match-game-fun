@@ -194,7 +194,6 @@ export const MemoryGame = () => {
                   ? 'bg-gradient-card' 
                   : 'bg-game-card hover:bg-game-card-hover'
                 }
-                ${card.isMatched ? 'animate-match-glow' : ''}
               `}
               onClick={() => handleCardClick(card.cardId)}
             >
