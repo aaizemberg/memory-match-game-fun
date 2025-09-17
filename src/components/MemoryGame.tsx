@@ -4,10 +4,10 @@ import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
 
 // Import player images
-import linShidong from "@/assets/players/01_lin-shidong.png";
-import wangChuqin from "@/assets/players/02_wang-chuqin.png";
-import tomokazuHarimoto from "@/assets/players/03_tomokazu-harimoto.png";
-import hugoCalderano from "@/assets/players/04_hugo-calderano.png";
+import wangChuqin from "@/assets/players/01_wang-chuqin.png";
+import linShidong from "@/assets/players/02_lin-shidong.png";
+import hugoCalderano from "@/assets/players/03_hugo-calderano.png";
+import tomokazuHarimoto from "@/assets/players/04_tomokazu-harimoto.png";
 import trulsMoregard from "@/assets/players/05_truls-moregard.png";
 import liangJingkun from "@/assets/players/06_liang-jingkun.png";
 import felixLebrun from "@/assets/players/07_felix-lebrun.png";
