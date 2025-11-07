@@ -4,16 +4,16 @@ import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
 
 // Import player images
-import wangChuqin from "@/assets/players/01_wang-chuqin.png";
-import linShidong from "@/assets/players/02_lin-shidong.png";
-import hugoCalderano from "@/assets/players/03_hugo-calderano.png";
-import tomokazuHarimoto from "@/assets/players/04_tomokazu-harimoto.png";
-import trulsMoregard from "@/assets/players/05_truls-moregard.png";
-import liangJingkun from "@/assets/players/06_liang-jingkun.png";
-import felixLebrun from "@/assets/players/07_felix-lebrun.png";
-import benediktDuda from "@/assets/players/08_benedikt-duda.png";
-import xiangPeng from "@/assets/players/09_xiang-peng.png";
-import darkoJorgic from "@/assets/players/10_darko-jorgic.png";
+import wangChuqin from "@/assets/players/wang-chuqin.png";
+import linShidong from "@/assets/players/lin-shidong.png";
+import hugoCalderano from "@/assets/players/hugo-calderano.png";
+import tomokazuHarimoto from "@/assets/players/tomokazu-harimoto.png";
+import trulsMoregard from "@/assets/players/truls-moregard.png";
+import liangJingkun from "@/assets/players/liang-jingkun.png";
+import felixLebrun from "@/assets/players/felix-lebrun.png";
+import benediktDuda from "@/assets/players/benedikt-duda.png";
+import xiangPeng from "@/assets/players/xiang-peng.png";
+import darkoJorgic from "@/assets/players/darko-jorgic.png";
 
 interface Player {
   id: number;
