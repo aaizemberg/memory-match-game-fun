@@ -29,16 +29,16 @@ interface GameCard extends Player {
 }
 
 const players: Player[] = [
-  { id: 1, name: "LIN Shidong", rank: 1, image: linShidong },
-  { id: 2, name: "WANG Chuqin", rank: 2, image: wangChuqin },
-  { id: 3, name: "Tomokazu HARIMOTO", rank: 3, image: tomokazuHarimoto },
-  { id: 4, name: "Hugo CALDERANO", rank: 4, image: hugoCalderano },
+  { id: 1, name: "WANG Chuqin", rank: 1, image: wangChuqin },
+  { id: 2, name: "LIN Shidong", rank: 2, image: linShidong },
+  { id: 3, name: "Hugo CALDERANO", rank: 3, image: hugoCalderano },
+  { id: 4, name: "Tomokazu HARIMOTO", rank: 4, image: tomokazuHarimoto },
   { id: 5, name: "Truls MOREGARD", rank: 5, image: trulsMoregard },
   { id: 6, name: "LIANG Jingkun", rank: 6, image: liangJingkun },
   { id: 7, name: "Felix LEBRUN", rank: 7, image: felixLebrun },
   { id: 8, name: "Benedikt DUDA", rank: 8, image: benediktDuda },
-  { id: 9, name: "XIANG Peng", rank: 9, image: xiangPeng },
-  { id: 10, name: "Darko JORGIC", rank: 10, image: darkoJorgic },
+  { id: 9, name: "Darko JORGIC", rank: 9, image: darkoJorgic },
+  { id: 10, name: "XIANG Peng", rank: 10, image: xiangPeng },
 ];
 
 export const MemoryGame = () => {
