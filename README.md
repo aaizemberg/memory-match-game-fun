@@ -2,7 +2,9 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/d3b33f61-2f79-45a0-a783-dd42673cec52
+**URL**: https://memory-match-game-fun.lovable.app/
+
+**URL dev**: https://lovable.dev/projects/d3b33f61-2f79-45a0-a783-dd42673cec52
 
 ## How can I edit this code?
 
