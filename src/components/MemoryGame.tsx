@@ -4,16 +4,16 @@ import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
 
 // Import player images
-import wangChuqin from "@/assets/players/wang-chuqin.png";
-import trulsMoregard from "@/assets/players/truls-moregard.png";
 import soraMatsushima from "@/assets/players/sora-matsushima.png";
 import felixLebrun from "@/assets/players/felix-lebrun.png";
 import tomokazuHarimoto from "@/assets/players/tomokazu-harimoto.png";
-import linShidong from "@/assets/players/lin-shidong.png";
+import trulsMoregard from "@/assets/players/truls-moregard.png";
+import wangChuqin from "@/assets/players/wang-chuqin.png";
 import linYunJu from "@/assets/players/lin_yun_ju.png";
 import hugoCalderano from "@/assets/players/hugo-calderano.png";
+import alexisLebrun from "@/assets/players/alexis-lebrun.png";
+import linShidong from "@/assets/players/lin-shidong.png";
 import jangWoojin from "@/assets/players/jang-woojin.png";
-import dangQiu from "@/assets/players/qiu-dang.png";
 
 interface Player {
   id: number;
@@ -29,16 +29,16 @@ interface GameCard extends Player {
 }
 
 const players: Player[] = [
-  { id: 1, name: "WANG Chuqin", rank: 1, image: wangChuqin },
-  { id: 2, name: "Truls MOREGARD", rank: 2, image: trulsMoregard },
-  { id: 3, name: "Sora MATSUSHIMA", rank: 3, image: soraMatsushima },
-  { id: 4, name: "Felix LEBRUN", rank: 4, image: felixLebrun },
-  { id: 5, name: "Tomokazu HARIMOTO", rank: 5, image: tomokazuHarimoto },
-  { id: 6, name: "LIN Shidong", rank: 6, image: linShidong },
-  { id: 7, name: "LIN Yun-Ju", rank: 7, image: linYunJu },
-  { id: 8, name: "Hugo CALDERANO", rank: 8, image: hugoCalderano },
-  { id: 9, name: "JANG Woojin", rank: 9, image: jangWoojin },
-  { id: 10, name: "Dang QIU", rank: 10, image: dangQiu }
+  { id: 1, name: "Sora MATSUSHIMA", rank: 1, image: soraMatsushima },
+  { id: 2, name: "Felix LEBRUN", rank: 2, image: felixLebrun },
+  { id: 3, name: "Tomokazu HARIMOTO", rank: 3, image: tomokazuHarimoto },
+  { id: 4, name: "Truls MOREGARD", rank: 4, image: trulsMoregard },
+  { id: 5, name: "WANG Chuqin", rank: 5, image: wangChuqin },
+  { id: 6, name: "LIN Yun-Ju", rank: 6, image: linYunJu },
+  { id: 7, name: "Hugo CALDERANO", rank: 7, image: hugoCalderano },
+  { id: 8, name: "Alexis LEBRUN", rank: 8, image: alexisLebrun },
+  { id: 9, name: "LIN Shidong", rank: 9, image: linShidong },
+  { id: 10, name: "JANG Woojin", rank: 10, image: jangWoojin }
 ];
 
 export const MemoryGame = () => {
